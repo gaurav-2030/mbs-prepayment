@@ -1,0 +1,11 @@
+{
+  "name": "mbs-prepayment-deck",
+  "private": true,
+  "description": "Builds outputs/MBS_Prepayment_Deck.pptx from outputs/results.json",
+  "scripts": {
+    "deck": "node report/build_deck.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "3.12.0"
+  }
+}

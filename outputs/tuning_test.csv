@@ -1,0 +1,9 @@
+model,setting,param,value,val_pr_auc,test_pr_auc
+Logistic (L1),chosen on validation,C,0.1,0.08022174432377471,0.08372738228839131
+Logistic (L1),current (src/models.py),C,1.0,0.08002091332255817,0.08393269261037259
+Logistic (L2),chosen on validation,C,0.1,0.08010317918032117,0.08384094015674176
+Logistic (L2),current (src/models.py),C,1.0,0.08007580803039259,0.0838347249397379
+GDA (Quadratic),chosen on validation,reg_param,0.6,0.06754246605207086,0.07823929140850673
+GDA (Quadratic),current (src/models.py),reg_param,0.1,0.053744787490923006,0.06333347106475416
+SVM (RBF),chosen on validation,C,0.1,0.07034370446875919,0.07023661139347057
+SVM (RBF),current (src/models.py),C,1.0,0.05915782975174867,0.0675955839427164
